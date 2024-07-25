@@ -1,4 +1,4 @@
-// require('dotenv').config();
+
 
 const express = require('express');
 const cors=require("cors");
@@ -19,7 +19,7 @@ const corOptions={
 };
 app.use(cors(corOptions));
 
-
+require('dotenv').config();
 
 app.use(express.json());
 app.use('/api/auth', authRoute);

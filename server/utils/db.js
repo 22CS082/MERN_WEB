@@ -4,11 +4,11 @@
 const mongoose = require("mongoose");
 
 
-const URI ='mongodb+srv://yashvii:IgTxdxWOz8xVvCtI@cluster0.vssfous.mongodb.net/mern_admin?retryWrites=true&w=majority&appName=Cluster0';
+
 
 const connectDb = async () => {
     try {
-        await mongoose.connect(URI);
+        await mongoose.connect(process.env.MONGODB_URI);
         console.log("connected to db");
     } catch (error) {
         console.log(error);

@@ -49,7 +49,7 @@ userSchema.methods.comparePassword = async function (password) {
 };
 
 // Method to generate JWT token
-const JWT_SECRET_KEY = "WORLDBESTMERNSERIES";
+
 userSchema.methods.generateToken = async function () {
   try {
     const token = jwt.sign(
@@ -58,7 +58,7 @@ userSchema.methods.generateToken = async function () {
         email: this.email,
         isadmin: this.isadmin,
       },
-      JWT_SECRET_KEY,
+      process.env.JWT_SECRET_KEY,
       { expiresIn: "30y" } // Example: token expires in 30 years
     );
     return token;
