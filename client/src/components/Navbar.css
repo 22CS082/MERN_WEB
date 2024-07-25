@@ -1,0 +1,52 @@
+header {
+    background-color: #000; /* Black background */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-brand a {
+    text-decoration: none;
+    font-size: 2rem; /* Larger font size for logo */
+    font-weight: bold;
+    color: #fff; /* White text */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Increase gap for better spacing */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a, .logout-button {
+    text-decoration: none;
+    font-size: 2rem; /* Larger font size for navigation links and button */
+    color: #fff; /* White text */
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: inline-block; /* Make sure the button has the same inline-block behavior as links */
+    font-family: Georgia; /* Ensure the same font family */
+}
+
+nav ul li a:hover, .logout-button:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-decoration: none; /* Remove underline */
+}

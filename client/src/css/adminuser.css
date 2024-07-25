@@ -1,0 +1,74 @@
+/* Admin Users Section */
+.admin-users-section {
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #e0e0e0;
+}
+
+.admin-users-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Increased font size */
+    color: #e0e0e0;
+}
+
+/* Table styles */
+.admin-users-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-users-section thead {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+.admin-users-section thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.9rem; /* Increased font size */
+}
+
+.admin-users-section tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+.admin-users-section tbody tr:hover {
+    background-color: #333333;
+}
+
+.admin-users-section tbody td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.9rem; /* Increased font size */
+    border-bottom: 1px solid #444444;
+}
+
+/* Link and button styles */
+.admin-users-section a {
+    color: #747bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.9rem; /* Increased font size */
+}
+
+.admin-users-section a:hover {
+    text-decoration: underline;
+}
+
+.admin-users-section button {
+    background-color: #0a0808;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+.admin-users-section button:hover {
+    background-color: #0a080841;
+}

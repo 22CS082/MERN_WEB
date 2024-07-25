@@ -1,0 +1,40 @@
+/* Admin Contacts Section CSS */
+.admin-contacts-section {
+    padding: 2rem 0; /* Vertical padding for the section */
+    background-color: #000; /* Black background for the section */
+    color: #fff; /* White text color for contrast */
+  }
+  
+  .admin-contacts-section h1 {
+    text-align: center; /* Center the heading */
+    font-size: 3rem; /* Font size for the heading */
+    color: #fff; /* White color for the heading text */
+    margin-bottom: 2rem; /* Space below the heading */
+  }
+  
+  .admin-users {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    gap: 1.5rem; /* Space between items */
+    align-items: center; /* Center align items horizontally */
+    width: 100%; /* Full width of the container */
+  }
+  
+  .admin-users > div {
+    background-color: #222; /* Dark background for contact cards */
+    border: 1px solid #444; /* Slightly lighter border for contrast */
+    border-radius: 8px; /* Rounded corners for cards */
+    padding: 1.5rem; /* Padding inside the cards */
+    width: 80%; /* Set card width to 80% of its container */
+    max-width: 600px; /* Optional: limit maximum width */
+    text-align: center; /* Center text inside cards */
+  }
+  
+  .admin-users p {
+    margin: 0.5rem 0; /* Space between paragraphs */
+    font-size: 1.2rem; /* Font size for contact details */
+    color: #ccc; /* Light grey color for text */
+  }
+  
+
+  
